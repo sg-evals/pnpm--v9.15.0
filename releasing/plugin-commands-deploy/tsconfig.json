@@ -1,0 +1,58 @@
+{
+  "extends": "@pnpm/tsconfig",
+  "compilerOptions": {
+    "outDir": "lib",
+    "rootDir": "src"
+  },
+  "include": [
+    "src/**/*.ts",
+    "../../__typings__/**/*.d.ts"
+  ],
+  "references": [
+    {
+      "path": "../../__utils__/assert-project"
+    },
+    {
+      "path": "../../__utils__/prepare"
+    },
+    {
+      "path": "../../catalogs/resolver"
+    },
+    {
+      "path": "../../catalogs/types"
+    },
+    {
+      "path": "../../cli/cli-utils"
+    },
+    {
+      "path": "../../cli/common-cli-options-help"
+    },
+    {
+      "path": "../../fetching/directory-fetcher"
+    },
+    {
+      "path": "../../fs/indexed-pkg-importer"
+    },
+    {
+      "path": "../../fs/is-empty-dir-or-nothing"
+    },
+    {
+      "path": "../../lockfile/types"
+    },
+    {
+      "path": "../../packages/error"
+    },
+    {
+      "path": "../../packages/logger"
+    },
+    {
+      "path": "../../packages/types"
+    },
+    {
+      "path": "../../pkg-manager/plugin-commands-installation"
+    },
+    {
+      "path": "../../workspace/filter-packages-from-dir"
+    }
+  ]
+}

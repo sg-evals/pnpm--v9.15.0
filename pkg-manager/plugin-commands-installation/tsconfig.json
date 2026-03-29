@@ -1,0 +1,118 @@
+{
+  "extends": "@pnpm/tsconfig",
+  "compilerOptions": {
+    "outDir": "lib",
+    "rootDir": "src"
+  },
+  "include": [
+    "src/**/*.ts",
+    "../../__typings__/**/*.d.ts"
+  ],
+  "references": [
+    {
+      "path": "../../__utils__/assert-project"
+    },
+    {
+      "path": "../../__utils__/prepare"
+    },
+    {
+      "path": "../../__utils__/test-fixtures"
+    },
+    {
+      "path": "../../__utils__/test-ipc-server"
+    },
+    {
+      "path": "../../cli/cli-utils"
+    },
+    {
+      "path": "../../cli/command"
+    },
+    {
+      "path": "../../cli/common-cli-options-help"
+    },
+    {
+      "path": "../../config/config"
+    },
+    {
+      "path": "../../config/matcher"
+    },
+    {
+      "path": "../../dedupe/check"
+    },
+    {
+      "path": "../../env/plugin-commands-env"
+    },
+    {
+      "path": "../../exec/plugin-commands-rebuild"
+    },
+    {
+      "path": "../../fs/graceful-fs"
+    },
+    {
+      "path": "../../hooks/pnpmfile"
+    },
+    {
+      "path": "../../lockfile/types"
+    },
+    {
+      "path": "../../packages/constants"
+    },
+    {
+      "path": "../../packages/error"
+    },
+    {
+      "path": "../../packages/logger"
+    },
+    {
+      "path": "../../packages/parse-wanted-dependency"
+    },
+    {
+      "path": "../../packages/types"
+    },
+    {
+      "path": "../../pkg-manifest/manifest-utils"
+    },
+    {
+      "path": "../../pkg-manifest/read-project-manifest"
+    },
+    {
+      "path": "../../resolving/resolver-base"
+    },
+    {
+      "path": "../../reviewing/outdated"
+    },
+    {
+      "path": "../../store/package-store"
+    },
+    {
+      "path": "../../store/store-connection-manager"
+    },
+    {
+      "path": "../../workspace/filter-packages-from-dir"
+    },
+    {
+      "path": "../../workspace/filter-workspace-packages"
+    },
+    {
+      "path": "../../workspace/find-packages"
+    },
+    {
+      "path": "../../workspace/find-workspace-dir"
+    },
+    {
+      "path": "../../workspace/pkgs-graph"
+    },
+    {
+      "path": "../../workspace/sort-packages"
+    },
+    {
+      "path": "../core"
+    },
+    {
+      "path": "../get-context"
+    },
+    {
+      "path": "../modules-yaml"
+    }
+  ]
+}
