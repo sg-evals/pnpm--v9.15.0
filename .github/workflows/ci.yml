@@ -32,11 +32,11 @@ jobs:
         git config --global user.name "xyz"
         git config --global user.email "x@y.z"
     - name: Checkout Commit
-      uses: actions/checkout@v4
+      uses: actions/checkout@v6
       with:
         lfs: true
     - name: Install pnpm
-      uses: pnpm/action-setup@v4.0.0
+      uses: pnpm/action-setup@v6.0.0
       with:
         standalone: true
     - name: Setup Node
